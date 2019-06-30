@@ -1,4 +1,8 @@
 class Solution(object):
+    """
+    This algoritm solves the following problem from LeetCode:
+    https://leetcode.com/problems/squares-of-a-sorted-array/
+    """
     def sortedSquares(self, A):
         """
         :type A: List[int]
