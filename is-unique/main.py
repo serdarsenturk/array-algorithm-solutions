@@ -1,8 +1,4 @@
-name = "Serdar Senturk"
-
-name = name.lower()
-name = name.replace(" ", "")
-name = ''.join(sorted(name))
+name = "SerdarSenturk"
 
 dic = set(name)
 

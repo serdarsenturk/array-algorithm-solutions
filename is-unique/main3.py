@@ -1,14 +1,7 @@
-givenString = "marrie"
-givenString = givenString.replace(" ", "")
-givenString = givenString.lower()
-
-emptyDict = dict()
-
-
-
-def isUnique(stringInput):
+def hasOnlyUniqueChars(stringInput):
+    emptyDict = {}
     index = 0
-    for i in givenString:
+    for i in stringInput:
         if i in emptyDict:
             return False
         else:
@@ -17,4 +10,9 @@ def isUnique(stringInput):
             index += 1
     return True
 
-print(isUnique(givenString))
+givenString = "marrie"
+givenString = givenString.replace(" ", "")
+givenString = givenString.lower()
+
+
+print(hasOnlyUniqueChars(givenString))
